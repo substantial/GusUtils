@@ -7,4 +7,5 @@ Pod::Spec.new do |s|
   s.platform = :ios, '6.0'
   s.authors  = {"Gustavo Pelosi Ambrozio" => "https://github.com/gpambrozio/"}
   s.requires_arc = false
+  s.frameworks = "Foundation", "CoreMedia", "CoreLocation", "UIKit", "ImageIO", "AssetsLibrary"
 end
